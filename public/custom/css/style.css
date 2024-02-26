@@ -1,0 +1,97 @@
+/*================================================================================
+	Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+.myaudio {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+[v-cloak] { display: none; }
+
+
+.vue-pagination {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.vue-pagination .current {
+    background-color: #28d094 !important;
+}
+
+.rus-text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pro-font {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.my-font-size {
+    font-size: 2rem !important;
+}
+
+.lfont {
+    font-size: 3rem !important;
+}
+
+.green {
+    color: #71a436;
+}
+
+.font50px {
+    font-size: 50px;
+}
+
+.word {
+    font-size: 26px;
+}
+
+.deleted {
+    color: #a7ffeb;
+}
+
+.inserted {
+    color: #7eb73d;
+}
+
+.pattern_answer_block {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0.3rem;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.Learned {
+    color: forestgreen;
+}
+
+.Consolidation {
+    color: cornflowerblue;
+}
+
+#work_img {
+    margin-bottom: 15px;
+    border: 10px solid #dedede;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.mycheckbox {
+    height: 26px;
+    width: 26px;
+}
+

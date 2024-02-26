@@ -1,0 +1,21 @@
+php_value allow_url_fopen On
+
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !^public
+RewriteRule ^(.*)$ public/$1 [L]
+
+#AuthType Basic
+#AuthName "Site"
+#AuthUserFile "/home/lexxra01/.htpasswds/public_html/passwd"
+#require valid-user
+
+
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php7_module>
+   php_value bcmath.scale 0
+</IfModule>
+# END cPanel-generated php ini directives, do not edit

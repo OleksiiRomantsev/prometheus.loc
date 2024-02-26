@@ -1,0 +1,13 @@
+Options +FollowSymLinks -Indexes
+RewriteEngine On
+
+RewriteCond %{HTTP:Authorization} .
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !^wiki
+RewriteRule ^ index.php [L]
+
+
+php_value allow_url_fopen On
